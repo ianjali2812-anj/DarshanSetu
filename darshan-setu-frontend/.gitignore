@@ -1,0 +1,10 @@
+@"
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+serviceAccountKey.json
+node_modules/
+dist/
+"@ | Set-Content .gitignore
